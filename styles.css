@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+h1, p {
+    text-align: center;
+}
+
+span {
+    background-color: tomato;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.entry {
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 1rem 1rem .5rem 3rem;
+}
