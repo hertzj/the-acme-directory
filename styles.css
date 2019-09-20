@@ -1,9 +1,11 @@
 body {
     background-color: white;
+    margin-bottom: 0;
 }
 
 h1, p {
     text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 span {
@@ -19,4 +21,38 @@ p {
     background-color: tomato;
     border: 1px solid black;
     margin: 1rem 1rem .5rem 3rem;
+}
+
+.moe {
+    background-image: url(https://learndotresources.s3.amazonaws.com/workshop/5d82f73445ae900004652db3/three_stooges.jpg);
+    height: 9.5rem;
+    width: 9.5rem;
+
+    border-radius: 15rem;
+    margin: auto;
+    background-position: 0% 0%;
+    
+}
+
+.larry {
+    background-image: url(https://learndotresources.s3.amazonaws.com/workshop/5d82f73445ae900004652db3/three_stooges.jpg);
+    height: 9.5rem;
+    width: 9.5rem;
+    border-radius: 15rem;
+    margin: auto;
+    background-position: 100% 0%;
+    
+}
+
+.curly {
+    background-image: url(https://learndotresources.s3.amazonaws.com/workshop/5d82f73445ae900004652db3/three_stooges.jpg);
+    height: 9.5rem;
+    width: 9.5rem;
+    border-radius: 15rem;
+    margin: auto;
+    background-position: center;
+}
+
+.entry.bottom {
+    margin-bottom: 0;
 }
